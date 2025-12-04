@@ -595,6 +595,10 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
