@@ -467,18 +467,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_zero_trust/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6D%61%72%79.%6F%67%75%6E%6D%6F%61%6C@%75%74%61%68.%65%64%75", "_blank");
+          window.open("mailto:%6D%61%72%79.%6F%67%75%6E%6D%6F%6C%61@%75%74%61%68.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
@@ -488,11 +481,11 @@ ninja.data = [{
           window.open("https://github.com/MaryAyobami", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
+        id: 'social-linkedin_url',
+        title: 'Linkedin_url',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/mary-ogunmola", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-rss',
