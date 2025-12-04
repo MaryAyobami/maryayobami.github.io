@@ -32,5 +32,5 @@ I'm Mary Ogunmola, a Computer Science Ph.D. student at the University of Utah, w
 
 My current work investigates the integration of hardware-assisted security mechanisms to secure 5G network functions in third-party cloud environments.
 
-Before my doctoral studies, I worked as a Software Engineer, where I focused on building robust applications and automating secure deployment pipelines. I also have a strong background in cybersecurity and I'm passionate about making technical knowledge more accessible and have experience as a technical writer, instructor, and community organizer.
+Before my doctoral studies, I worked as a Software Engineer, where I focused on building robust applications and automating secure deployment pipelines. I also have a strong background in cloud computing and I'm passionate about making technical knowledge more accessible through writing.
 
