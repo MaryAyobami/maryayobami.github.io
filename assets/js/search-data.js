@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects in confidential computing, cloud security, and network performance.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -37,12 +37,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-photography",
+              title: "photography",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/photography/";
               },
             },{id: "post-a-post-with-plotly-js",
         
@@ -407,11 +407,41 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-5g-comprehensive-security",
+          title: '5G Comprehensive Security',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/5g_comprehensive_security/";
+            },},{id: "books-atomic-habits",
+          title: 'Atomic Habits',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/atomic_habits/";
+            },},{id: "books-a-broken-people-39-s-playlist",
+          title: 'A Broken People&amp;#39;s Playlist',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/broken_peoples_playlist/";
+            },},{id: "books-outliers",
+          title: 'Outliers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/outliers/";
+            },},{id: "books-tomorrow-i-become-a-woman",
+          title: 'Tomorrow I Become a Woman',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/tomorrow_i_become_a_woman/";
+            },},{id: "books-understanding-the-linux-kernel",
+          title: 'Understanding the Linux Kernel',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/understanding_linux_kernel/";
+            },},{id: "books-wahala",
+          title: 'Wahala',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wahala/";
             },},{id: "news-started-my-ph-d-in-computer-science-at-the-university-of-utah-mortar-board",
           title: 'Started my Ph.D. in Computer Science at the University of Utah! :mortar_board:',
           description: "",
@@ -421,51 +451,21 @@ ninja.data = [{
           section: "News",},{id: "news-elected-as-secretary-of-the-graduate-student-advisory-council-gradsac-at-the-school-of-computing",
           title: 'Elected as Secretary of the Graduate Student Advisory Council (GradSAC) at the School...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-data-exfiltration-detection-using-machine-learning",
+          title: 'Data Exfiltration Detection using Machine Learning',
+          description: "Kernel-level intrusion detection system using eBPF and ML to detect anomalous data exfiltration in cloud environments",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_data_exfiltration/";
+            },},{id: "projects-5g-network-performance-analyzer",
+          title: '5G Network Performance Analyzer',
+          description: "Kubernetes-based benchmarking framework to measure latency overhead in 5G network functions",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_5g_network/";
+            },},{id: "projects-zero-trust-architecture-in-aws",
+          title: 'Zero Trust Architecture in AWS',
+          description: "Implementation of zero trust security model in AWS cloud infrastructure",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/3_zero_trust/";
             },},{
         id: 'social-cv',
         title: 'CV',
