@@ -1,0 +1,209 @@
+% Academic CV - Mary Ogunmola
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+
+% Convenience command: left-date column width
+\newlength{\DateCol}
+\setlength{\DateCol}{1.2in}
+
+% Entry: two-column row with date on left and content on right
+\newcommand{\entry}[2]{%
+  \noindent\begin{tabular}{@{}p{\DateCol} p{\dimexpr\linewidth-\DateCol\relax}@{}}%
+    \raggedright #1 & \raggedright #2
+  \end{tabular}\par\vspace{4pt}%
+}
+
+\begin{document}
+
+% ================ HEADER ================
+\begin{center}
+    {\LARGE\bfseries Mary Ogunmola}
+\end{center}
+
+\vspace{6pt}
+
+\noindent
+\begin{tabular}{@{}p{0.58\linewidth} p{0.48\linewidth}@{}}
+MEB Room 3490A & Email: \href{mailto:mary.ogunmola@utah.edu}{mary.ogunmola@utah.edu} \\
+50 South Central Campus Drive & Phone: +1 (385) 443-9712 \\
+Salt Lake City, UT 84112 & LinkedIn: \href{https://www.linkedin.com/in/mary-ogunmola-8a85141b0/}{linkedin.com/in/mary-ogunmola} \\
+& GitHub: \href{https://github.com/maryayobami}{github.com/maryayobami} \\
+\end{tabular}
+
+\rule{\linewidth}{0.4pt}
+
+% ================ EDUCATION ================
+\section*{EDUCATION}
+
+\entry{\textbf{Ph.D.,}}{%
+\textbf{University of Utah} \\
+Computer Science (expected 2030) \\
+Advisor: Professor Robert Ricci. \\
+Research areas: Distributed systems; Confidential computing; Cloud security; 5G networks.
+}
+
+\entry{\textbf{B.Sc.,}}{%
+\textbf{Joseph Ayo Babalola University} \\
+Computer Science (2023) \\
+Thesis: \textit{Development of a Mobile-Based Courseware to Improve Accessibility of Academic Resources.}
+}
+
+% ================ RESEARCH INTERESTS ================
+\section*{RESEARCH INTERESTS}
+
+\entry{}{Distributed systems; Cloud computing; Virtualization; Cloud security; Confidential computing; 5G networks.}
+
+% ================ RESEARCH EXPERIENCE ================
+\section*{RESEARCH EXPERIENCE}
+
+\entry{\textbf{2025 -- Present}}{%
+\textbf{Graduate Research Assistant}, Flux Research Group, University of Utah. \\
+Advisor: Professor Robert Ricci.
+\begin{itemize}[leftmargin=*, nosep, itemsep=1pt]
+    \item Investigating hardware-assisted security mechanisms for 5G network functions in cloud environments
+    \item Designing Kubernetes-based benchmarking framework to evaluate latency and performance overhead
+\end{itemize}
+}
+
+\entry{\textbf{2023 -- 2024}}{%
+\textbf{Undergraduate Research Assistant}, Joseph Ayo Babalola University. \\
+Advisor: V. A. Olutayo.
+\begin{itemize}[leftmargin=*, nosep, itemsep=1pt]
+    \item Developed unified academic resource database and cross-platform app (120\% accessibility improvement)
+    \item Conducted enterprise case study on cloud-centric IoT transformations
+\end{itemize}
+}
+
+% ================ PROFESSIONAL EXPERIENCE ================
+\section*{PROFESSIONAL EXPERIENCE}
+
+\entry{\textbf{Jan -- Jul 2025}}{%
+\textbf{Software Engineer}, i-Vantage Technology, Lagos, Nigeria.
+\begin{itemize}[leftmargin=*, nosep, itemsep=1pt]
+    \item Automated secure software deployment using CI/CD pipelines with vulnerability scanning
+    \item Hardened AWS cloud infrastructure (99.9\% uptime, zero unauthorized access incidents)
+\end{itemize}
+}
+
+\entry{\textbf{Jun -- Aug 2024}}{%
+\textbf{Cybersecurity Intern}, Hacktify.
+\begin{itemize}[leftmargin=*, nosep, itemsep=1pt]
+    \item Executed black-box and gray-box vulnerability assessments on enterprise web applications
+    \item Identified critical security flaws (SQL Injection, XSS, SSRF) with remediation strategies
+\end{itemize}
+}
+
+% ================ TEACHING EXPERIENCE ================
+\section*{TEACHING EXPERIENCE}
+
+\entry{\textbf{Mar 2021 -- Jul 2023}}{%
+\textbf{Volunteer Tutor \& Academic Team Lead}, Nigerian Association of Computing Students, JABU.
+\begin{itemize}[leftmargin=*, nosep, itemsep=1pt]
+    \item Facilitated tutorials on Security Engineering and Communication Networks
+    \item Courses: \textit{CS 314 (Security Engineering), CS 220 (Communication Networks)}
+\end{itemize}
+}
+
+\entry{\textbf{Jul -- Nov 2022}}{%
+\textbf{Technical Instructor}, JIT Solutions Technology.
+\begin{itemize}[leftmargin=*, nosep, itemsep=1pt]
+    \item Instructed 50 students in Web Technologies (JavaScript, TypeScript)
+    \item Integrated security fundamentals (input validation, XSS prevention, secure authentication)
+\end{itemize}
+}
+
+% ================ PUBLICATIONS ================
+\section*{PUBLICATIONS}
+
+\entry{2024}{%
+Olutayo, V.A., \& \textbf{Ogunmola, M.A.} ``An Enhanced Courseware Accessibility Mobile-Based Learning System Model.'' \textit{African Journal of Information Systems}. (Manuscript).
+}
+
+\entry{2024}{%
+Adeniran, A.O., Onuajah, S.I., Adeniran, A.A., \& \textbf{Ogunmola, M.A.} ``Implementing Cloud-Centric IoT Transformations: Merits and Demerits.'' \textit{Systemic Analytics}, 2(2), 174--187.
+}
+
+% ================ CONFERENCES AND SEMINARS ================
+\section*{CONFERENCES AND SEMINARS}
+
+\entry{Nov 2024}{%
+Attendee, 6th International Conference on Cybersecurity and Cloud, Comercio.
+}
+
+\entry{Jul 2024}{%
+Attendee, IoT West Africa Conference \& Exhibition, Lagos, Nigeria.
+}
+
+\entry{Jun 2023}{%
+Presenter, Seminar, Joseph Ayo Babalola University — ``Improving the Accessibility of Academic Resources in Education Institutions.''
+}
+
+% ================ HONORS AND AWARDS ================
+\section*{HONORS AND AWARDS}
+
+\entry{2025}{%
+University of Utah Graduate Fellowship.
+}
+
+\entry{2024}{%
+EducationUSA Opportunity Funds Award.
+}
+
+\entry{2023}{%
+\textbf{Overall Best Graduating Student (Valedictorian)}, Joseph Ayo Babalola University; Dean's Prize; University Scholar; Pro Chancellor's Prize; Parent Forum's Prize; Most Outstanding Student (Nigerian Association of Computing Students).
+}
+
+% ================ LEADERSHIP AND SERVICE ================
+\section*{LEADERSHIP AND SERVICE}
+
+\entry{\textbf{2025 -- Present}}{%
+\textbf{Secretary}, Graduate Student Advisory Council (GradSAC), University of Utah.
+}
+
+\entry{\textbf{2024}}{%
+\textbf{Community Organizer}, AWS Nigeria User Group.
+}
+
+\entry{\textbf{2024}}{%
+\textbf{Member}, NYSC Medical Community Development Service Group.
+}
+
+\entry{\textbf{2022 -- 2023}}{%
+\textbf{Team Leader}, NACOS JABU Academic Committee.
+}
+
+% ================ SKILLS ================
+\section*{SKILLS}
+
+\entry{\textbf{Security \& Privacy:}}{%
+Confidential Computing (Intel SGX, Intel TDX, Gramine); Threat modeling; SIEM (Splunk, ELK); Penetration testing (Burp Suite, Nmap).
+}
+
+\entry{\textbf{Networking:}}{%
+5G Core Networks; Open5GS; Wireshark; tcpdump.
+}
+
+\entry{\textbf{Cloud \& Distributed Systems:}}{%
+Kubernetes; Docker; AWS; GCP; Azure; Terraform; CI/CD (Jenkins).
+}
+
+\entry{\textbf{Programming:}}{%
+C; Python (Scikit-learn); JavaScript; TypeScript; React; React Native; ExpressJS; SQL; Java; Linux.
+}
+
+% ================ PROFESSIONAL AFFILIATIONS ================
+\section*{PROFESSIONAL AFFILIATIONS}
+
+\entry{}{%
+Association for Computing Machinery. \\
+IEEE Computer Society \\
+National Society of Black Engineers \\
+Society of Women Engineers
+}
+
+\end{document}
