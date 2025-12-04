@@ -2,7 +2,7 @@
 layout: book-review
 title: A Broken People's Playlist
 author: Chimeka Garricks
-isbn: 1911115634
+isbn: 9781911115632
 categories: fiction short-stories african-literature
 tags: nigerian-authors
 status: Finished
