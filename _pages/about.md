@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>MEB Room 3490A</p>
     <p>50 South Central Campus Drive</p>
+    <p>University of Utah</p>
     <p>Salt Lake City, UT 84112</p>
 
 <!-- selected_papers: true # includes a list of papers marked as "selected={true}" -->

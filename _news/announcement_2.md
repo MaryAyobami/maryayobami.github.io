@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Elected as Secretary of the Graduate Student Advisory Council (GradSAC) at the School of Computing!
+Joined the Graduate Student Advisory Council (GradSAC) at the School of Computing as the Secretary!

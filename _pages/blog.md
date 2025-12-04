@@ -193,6 +193,4 @@ Blog posts coming soon! Check back later for technical writing on confidential c
 {% include pagination.liquid %}
 {% endif %}
 
-</div> -->if %}
-
-</div>
+</div> -->
