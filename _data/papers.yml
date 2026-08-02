@@ -1,0 +1,10 @@
+# Add papers here when you want them to appear on /papers/.
+# Example:
+# - title: "Scaling Distributed Machine Learning with the Parameter Server"
+#   authors: "Mu Li, David G. Andersen, Jun Woo Park, et al."
+#   venue: "OSDI '14"
+#   url: "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu"
+#   status: "read"
+#   notes:
+#     - "Bounded-delay asynchrony is a practical middle ground between strict consistency and full async."
+#     - "Looser consistency can improve training speed but may affect convergence."

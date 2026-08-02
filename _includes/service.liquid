@@ -1,0 +1,24 @@
+<div class="service">
+  {% if site.service != blank %}
+    {% assign service_items = site.service %}
+    {% assign categories = service_items | map: 'category' | uniq %}
+    <dl class="service-list">
+      {% for cat in categories %}
+        <div class="service-row">
+          <dt>{{ cat }}</dt>
+          <dd>
+            {% for item in service_items %}
+              {% if item.category == cat %}
+                {% if item.inline %}
+                  <span>{{ item.content | remove: '<p>' | remove: '</p>' | strip }}</span><br>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </dd>
+        </div>
+      {% endfor %}
+    </dl>
+  {% else %}
+    <p>No service items yet.</p>
+  {% endif %}
+</div>

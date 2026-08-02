@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Data Exfiltration Detection using Machine Learning
-description: Kernel-level intrusion detection system using eBPF and ML to detect anomalous data exfiltration in cloud environments
-img: 
+title: Sensitivity Analysis for Systems Experiments
+description: Characterizing how performance results shift across environmental conditions, including how much conclusions change, whether individual runs can be treated as independent samples, and which conditions drive the largest differences. This work grew out of performance variability I observed while working with Trusted Execution Environments, and aims to improve the generalizability and reproducibility of systems experiments across heterogeneous hardware.
 importance: 1
-category: work
+category: Empirical Systems Research
 ---
 
 Project details coming soon.

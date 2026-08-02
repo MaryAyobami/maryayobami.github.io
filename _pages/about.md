@@ -28,9 +28,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Mary Ogunmola, a Computer Science Ph.D. student at the University of Utah, where I conduct research in **Confidential Computing** under the supervision of [Professor Robert Ricci](https://www.cs.utah.edu/~ricci/) at the [Flux Research Group](https://www.flux.utah.edu/). My research focuses on leveraging Trusted Execution Environments (TEEs) to secure data-in-use, addressing critical privacy challenges in modern computing infrastructure.
+I am Mary Ogunmola, a Computer Science Ph.D. student at the University of Utah, where I am advised by [Professor Robert Ricci](https://www.cs.utah.edu/~ricci/) in the [Flux Research Group](https://www.flux.utah.edu/). I am interested in security, verifiable trust, and performance. Broadly, my research explores how cloud workloads can maintain strong security and performance guarantees, as well as how systems experiments can produce more reliable, representative, and reproducible results. You can read more about my current research areas [here](/research/).
 
-My current work investigates the integration of hardware-assisted security mechanisms to secure 5G network functions in third-party cloud environments.
+Before my doctoral studies, I spent a year working as a Software Engineer, building applications and automating secure deployment pipelines. I also have experience in technical writing, and I am passionate about making technical knowledge more accessible.
 
-Before my doctoral studies, I worked as a Software Engineer, where I focused on building robust applications and automating secure deployment pipelines. I also have a strong background in cloud computing and I'm passionate about making technical knowledge more accessible through writing.
+<h2 id="service">service</h2>
 
+{% include service.liquid %}

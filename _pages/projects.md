@@ -1,65 +1,57 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Research projects in confidential computing, cloud security, and network performance.
+title: research
+permalink: /research/
+description:
 nav: true
-nav_order: 3
-display_categories: [work]
-horizontal: false
+nav_order: 1
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+<div class="research-statement">
+  <p>
+    My research centers on <strong>trustworthy, efficient computation</strong>. I am interested in security, privacy, verifiable trust, and performance, with the goal of ensuring that execution remains protected in shared environments and that results are reliable without sacrificing efficiency.
+  </p>
+  <p class="research-statement-close">
+    I have had the opportunity to explore these questions through the following research areas.
+  </p>
+</div>
+
+<div class="research-areas">
+
+  <div class="research-area">
+    <div class="research-area-label">
+      <h2>Confidential Computing</h2>
+    </div>
+    <div class="research-area-body">
+      <p>I work on enabling users to run workloads on third-party cloud infrastructure with provable confidentiality and integrity guarantees while preserving the performance that makes cloud computing viable. This involves leveraging hardware-assisted Trusted Execution Environments (TEEs) to secure data in use.</p>
+      <div class="research-projects">
+        {% assign cc_projects = site.projects | where: "category", "Confidential Computing" | sort: "importance" %}
+        {% for project in cc_projects %}
+        <div class="research-project-item">
+          <a href="{{ project.url | relative_url }}" class="research-project-title">{{ project.title }}</a>
+          <p class="research-project-desc">{{ project.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+  <div class="research-area">
+    <div class="research-area-label">
+      <h2>Empirical Systems Research</h2>
+    </div>
+    <div class="research-area-body">
+      <p>I investigate performance variability in systems experiments. My goal is to help researchers trust that their measurements are representative and reproducible, rather than artifacts of environmental interference.</p>
+      <div class="research-projects">
+        {% assign emp_projects = site.projects | where: "category", "Empirical Systems Research" | sort: "importance" %}
+        {% for project in emp_projects %}
+        <div class="research-project-item">
+          <a href="{{ project.url | relative_url }}" class="research-project-title">{{ project.title }}</a>
+          <p class="research-project-desc">{{ project.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+
 </div>
