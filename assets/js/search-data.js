@@ -9,33 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-research",
+          title: "research",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Research projects in confidential computing, cloud security, and network performance.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/research/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
+        },{id: "dropdown-papers",
+              title: "papers",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/books/";
+                window.location.href = "/papers/";
               },
             },{id: "dropdown-photography",
               title: "photography",
@@ -341,17 +334,6 @@ ninja.data = [{
             window.location.href = "/blog/2021/distill/";
           
         },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
       },{id: "post-a-post-with-disqus-comments",
         
           title: "a post with disqus comments",
@@ -451,22 +433,32 @@ ninja.data = [{
           section: "News",},{id: "news-joined-the-graduate-student-advisory-council-gradsac-at-the-school-of-computing-as-the-secretary",
           title: 'Joined the Graduate Student Advisory Council (GradSAC) at the School of Computing as...',
           description: "",
-          section: "News",},{id: "projects-data-exfiltration-detection-using-machine-learning",
-          title: 'Data Exfiltration Detection using Machine Learning',
-          description: "Kernel-level intrusion detection system using eBPF and ML to detect anomalous data exfiltration in cloud environments",
+          section: "News",},{id: "projects-sensitivity-analysis-for-systems-experiments",
+          title: 'Sensitivity Analysis for Systems Experiments',
+          description: "Characterizing how performance results shift across environmental conditions, including how much conclusions change, whether individual runs can be treated as independent samples, and which conditions drive the largest differences. This work grew out of performance variability I observed while working with Trusted Execution Environments, and aims to improve the generalizability and reproducibility of systems experiments across heterogeneous hardware.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_data_exfiltration/";
-            },},{id: "projects-5g-network-performance-analyzer",
-          title: '5G Network Performance Analyzer',
-          description: "Kubernetes-based benchmarking framework to measure latency overhead in 5G network functions",
+            },},{id: "projects-confidential-5g-network-functions-in-third-party-clouds",
+          title: 'Confidential 5G Network Functions in Third-Party Clouds',
+          description: "Securing 5G network functions on third-party cloud infrastructure using Trusted Execution Environments (TEEs), with confidentiality and integrity guarantees that preserve practical performance.My initial work explored running cellular network workloads in TEE environments, and I am interested in extending this direction to broader modern computing infrastructure, including cloud-native services, distributed systems, and HPC workloads.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_5g_network/";
-            },},{id: "projects-zero-trust-architecture-in-aws",
-          title: 'Zero Trust Architecture in AWS',
-          description: "Implementation of zero trust security model in AWS cloud infrastructure",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_zero_trust/";
-            },},{
+            },},{id: "service-sigmetrics-2026",
+          title: 'SIGMETRICS 2026.',
+          description: "",
+          section: "Service",},{id: "service-eurosys-2026-popets-2026-osdi-2026-amp-amp-sosp-2026",
+          title: 'EuroSys 2026, PoPETS 2026, OSDI 2026 &amp;amp;amp; SOSP 2026.',
+          description: "",
+          section: "Service",},{id: "service-poster-evaluator-undergraduate-research-symposium-fall-25-spring-26",
+          title: 'Poster Evaluator, Undergraduate Research Symposium, Fall 25’ Spring 26’.',
+          description: "",
+          section: "Service",},{id: "service-poster-evaluator-senior-capstone-projects-spring-26",
+          title: 'Poster Evaluator, Senior Capstone Projects, Spring 26’.',
+          description: "",
+          section: "Service",},{id: "service-secretary-graduate-student-advisory-committee-gradsac-kahlert-school-of-computing-2025",
+          title: 'Secretary, Graduate Student Advisory Committee (GradSAC), Kahlert School of Computing, 2025.',
+          description: "",
+          section: "Service",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
