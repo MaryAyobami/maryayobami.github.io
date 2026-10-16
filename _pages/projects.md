@@ -9,7 +9,7 @@ nav_order: 1
 
 <div class="research-statement">
   <p>
-    My research centers on <strong>trustworthy, efficient computation</strong>. I am interested in security, privacy, verifiable trust, and performance, with the goal of ensuring that execution remains protected in shared environments and that results are reliable without sacrificing efficiency.
+    My research interests span <strong>security, performance, and reproducibility in computing systems</strong>.
   </p>
   <p class="research-statement-close">
     I have had the opportunity to explore these questions through the following research areas.
@@ -23,7 +23,7 @@ nav_order: 1
       <h2>Confidential Computing</h2>
     </div>
     <div class="research-area-body">
-      <p>I work on enabling users to run workloads on third-party cloud infrastructure with provable confidentiality and integrity guarantees while preserving the performance that makes cloud computing viable. This involves leveraging hardware-assisted Trusted Execution Environments (TEEs) to secure data in use.</p>
+      <p>I work on enabling the execution of workloads on untrusted cloud infrastructure with provable confidentiality and integrity guarantees while preserving the performance that makes cloud computing viable. This involves leveraging hardware-assisted Trusted Execution Environments (TEEs) to secure data in use.</p>
       <div class="research-projects">
         {% assign cc_projects = site.projects | where: "category", "Confidential Computing" | sort: "importance" %}
         {% for project in cc_projects %}

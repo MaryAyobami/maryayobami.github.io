@@ -1,6 +1,6 @@
 ---
-category: Artifact Evaluation Committee
+category: Artifact Evaluation Committee Member
 inline: true
 ---
 
-EuroSys 2026, PoPETS 2026, OSDI 2026 & SOSP 2026.
+PoPETS 2026, OSDI 2026 & ACM CCS 2026.

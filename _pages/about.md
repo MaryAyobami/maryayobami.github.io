@@ -30,7 +30,7 @@ latest_posts:
 
 I am Mary Ogunmola, a Computer Science Ph.D. student at the University of Utah, where I am advised by [Professor Robert Ricci](https://www.cs.utah.edu/~ricci/) in the [Flux Research Group](https://www.flux.utah.edu/). I am interested in security, verifiable trust, and performance. Broadly, my research explores how cloud workloads can maintain strong security and performance guarantees, as well as how systems experiments can produce more reliable, representative, and reproducible results. You can read more about my current research areas [here](/research/).
 
-Before my doctoral studies, I spent a year working as a Software Engineer, building applications and automating secure deployment pipelines. I also have experience in technical writing, and I am passionate about making technical knowledge more accessible.
+Before my doctoral studies, I spent a year working as a Software Engineer, building web applications and automating secure deployment pipelines. I also have experience in technical writing, and I am passionate about making technical knowledge more accessible.
 
 <h2 id="service">service</h2>
 

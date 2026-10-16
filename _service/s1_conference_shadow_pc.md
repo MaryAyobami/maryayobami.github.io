@@ -1,5 +1,5 @@
 ---
-category: Shadow PC
+category: Shadow PC Member
 inline: true
 ---
 

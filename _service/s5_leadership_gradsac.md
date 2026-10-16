@@ -2,5 +2,5 @@
 category: University of Utah
 inline: true
 ---
-
-Secretary, Graduate Student Advisory Committee (GradSAC), Kahlert School of Computing, 2025.
+Co-Chair, GradCS Women, Kahlert School of Computing, 2026.<br>
+Secretary, Graduate Student Advisory Committee (GradSAC), Kahlert School of Computing, 2025-2026.
