@@ -433,8 +433,14 @@ ninja.data = [{
           section: "News",},{id: "news-joined-the-graduate-student-advisory-council-gradsac-at-the-school-of-computing-as-the-secretary",
           title: 'Joined the Graduate Student Advisory Council (GradSAC) at the School of Computing as...',
           description: "",
+          section: "News",},{id: "news-serving-on-the-artifact-evaluation-committee-for-osdi-2026",
+          title: 'Serving on the Artifact Evaluation Committee for OSDI 2026!',
+          description: "",
           section: "News",},{id: "news-became-co-chair-of-gradcs-women-at-the-university-of-utah-s-kahlert-school-of-computing",
           title: 'Became Co-Chair of GradCS Women at the University of Utah’s Kahlert School of...',
+          description: "",
+          section: "News",},{id: "news-serving-on-the-artifact-evaluation-committee-for-acm-ccs-2026",
+          title: 'Serving on the Artifact Evaluation Committee for ACM CCS 2026!',
           description: "",
           section: "News",},{id: "projects-sensitivity-analysis-for-systems-experiments",
           title: 'Sensitivity Analysis for Systems Experiments',
@@ -481,13 +487,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
